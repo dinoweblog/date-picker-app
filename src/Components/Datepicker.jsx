@@ -31,7 +31,7 @@ export const Datepicker = () => {
         monthsShown={2}
         inline
       />
-      <DatePicker
+      {/* <DatePicker
         wrapperClassName="date-picker"
         selected={startDate}
         onChange={onChange}
@@ -39,7 +39,7 @@ export const Datepicker = () => {
         endDate={endDate}
         selectsRange
         inline
-      />
+      /> */}
     </Div>
   );
 };
