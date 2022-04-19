@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import styled from "styled-components";
-
+import "./Datepicker.css";
 const Div = styled.div`
   display: flex;
+  margin: auto;
+  justify-content: center;
   .date-picker {
     width: 100%;
     border: 1px solid red;
